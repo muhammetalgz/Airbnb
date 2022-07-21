@@ -1,0 +1,469 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 86%;
+    position: fixed;
+    margin-left: 7%;
+    z-index: 1;
+}
+.header-logo{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.header-logo img{
+    width: 120px;
+    height: 40px;
+}
+.header.menu{
+    width: 40%;
+    padding-left: 200px;
+}
+.header-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+.header-menu a:hover{
+    border-bottom: 1px solid white;
+    color: gray;
+    transition: .3s;
+}
+.header-menu ul{
+    margin: 0;
+    display: flex;
+}
+.header-menu li{
+    list-style: none;
+}
+.header-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.header-profile .text:hover{
+    background: rgb(43, 43, 43);
+    transition: .3s;
+}
+.header-profile .text{
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 16px;
+    font-weight: 600;
+}
+.header-profile .text p{
+    color: white;
+    font-size: 14px;
+}
+.header-profile .icon{
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.header-profile .icon:hover{
+    background: rgb(43, 43, 43);
+}
+.header-profile .profile{
+    width: 80px;
+    height: 50px;
+    background: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+.header-profile .profile :nth-child(1){
+    margin-left: 15px;
+}
+.header-profile .profile :nth-child(2){
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: grey;
+}
+section{
+    width: 50%;
+    height: 70px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 40px;
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+section .konum{
+    width: 28%;
+    height: 70px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+section .konum:hover{
+    background: rgb(232, 232, 232);
+    transition: .3s;
+}
+section p,h6{
+    margin: 0;
+    padding: 0;
+}
+section  p{
+    font-size: 14px;
+}
+section  h6{
+    font-size: 11px;
+}
+section .giriş{
+    width: 22%;
+    height: 70px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+}
+section .giriş:hover{
+    background: rgb(232, 232, 232);
+    transition: .3s;
+}
+section .çıkış {
+    width: 18%;
+    height: 70px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+}
+section .çıkış:hover{
+    background: rgb(232, 232, 232);
+    transition: .3s;
+}
+section .misafirler {
+    width: 24%;
+    height: 70px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    position: relative;
+}
+section .misafirler:hover{
+    background: rgb(232, 232, 232);
+    transition: .3s;
+}
+section .misafirler i{
+    position: absolute;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FD385B;
+    border-radius: 50px;
+    color: white;
+}
+.haber{
+    width: 85%;
+    height: 450px;
+    background: #FD385B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+.haber h1{
+    width: 88%;
+    display: flex;
+    align-items: center;
+    height: 180px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.haber button{
+    width: 175px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 34px;
+    background: 0;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.background{
+    width: 100%;
+    height: 1300px;
+    background: black;
+}
+.orman{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -450px;
+}
+.orman img{
+    width: 100%;
+    border-radius: 10px;
+}
+.orman h1{
+    position: absolute;
+    width: 100%;
+    bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+.orman .button{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 80px;
+}
+.orman button{ 
+    width: 200px;
+    background: white;
+    border: 0;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 21px;
+    color: #FD385B;
+    font-weight: bold;
+    cursor: pointer;
+}
+.orman button:hover{
+    background: rgb(201, 201, 201);
+    transition: .3s;
+}
+.title{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.title-2{
+    width: 85%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.image{
+    width: 85%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.image .sapanca{
+    background: #CC2D49;
+    width: 24%;
+    border-radius: 10px;
+    height: 500px;
+    cursor: pointer;
+}
+.image .ankara{
+    background: #BB1A6D;
+    width: 24%;
+    border-radius: 10px;
+    height: 500px;
+    cursor: pointer;
+}
+.image .kemer{
+    background: #DD3151;
+    width: 24%;
+    border-radius: 10px;
+    height: 500px;
+    cursor: pointer;
+}
+.image .alanya{
+    background: #D93B30;
+    width: 24%;
+    border-radius: 10px;
+    height: 500px;
+    cursor: pointer;
+}
+.image .text{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+}
+.text h1{
+    color:  #ffffff;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 20px;
+}
+.images {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+}
+.images img{
+    height: 1000px;
+    width: 870px;
+    border-radius: 20px;
+}
+.images .box1{
+    position: relative;
+}
+.box1 .text{
+    position: absolute;
+    top: 80px;
+    color: #fff;
+    left: 50px;
+}
+.box2{
+    position: relative;
+}
+.box2 .text{
+    position: absolute;
+    top: 80px;
+    color: #fff;
+    left: 50px;
+}
+.images div p {
+    color: #fff;
+    font-size: 50px;
+}
+.images div button {
+    height: 50px;
+    width: 180px;
+    background: rgb(255, 253, 253);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.images div button:hover{
+    background: #eee;
+    cursor: pointer;
+    transition: .3s;
+}
+.women{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+.women .text-3{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    color: #fff;
+}
+.women .text-3 button{
+    height: 50px;
+    width: 300px;
+    background: rgb(255, 253, 253);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.women .text-3 button:hover{
+    background: #eee;
+    cursor: pointer;
+    transition: .3s;
+}
+.women .text-3 p{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    width: 500px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.women img{
+    width: 100%;
+    border-radius: 20px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background: #f7f7f7;
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+    padding-top: 60px;
+}
+footer .destek {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+footer a{
+    color: black;
+    margin-top: 15px;
+    font-size: 14px;
+}
+footer a:hover{
+    color: rgb(198, 198, 198);
+    transition: .3s;
+}
+footer .destek h1{
+    font-size: 15px;
+}
+footer .topluluk{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+footer h1{
+    font-size: 15px;
+    font-weight: 600;
+}
+footer .ev-sahipliği{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+footer .hakkımızda{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
